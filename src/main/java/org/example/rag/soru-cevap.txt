@@ -1,0 +1,38 @@
+"C:\Users\Burhan Cerit\.jdks\openjdk-25.0.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.2.5\lib\idea_rt.jar=53927" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "C:\Users\Burhan Cerit\Documents\intellij-workspace\demo\AIJaper\target\classes;C:\Users\Burhan Cerit\.m2\repository\com\microsoft\onnxruntime\onnxruntime\1.18.0\onnxruntime-1.18.0.jar;C:\Users\Burhan Cerit\.m2\repository\org\apache\pdfbox\pdfbox\3.0.8\pdfbox-3.0.8.jar;C:\Users\Burhan Cerit\.m2\repository\org\apache\pdfbox\pdfbox-io\3.0.8\pdfbox-io-3.0.8.jar;C:\Users\Burhan Cerit\.m2\repository\org\apache\pdfbox\fontbox\3.0.8\fontbox-3.0.8.jar;C:\Users\Burhan Cerit\.m2\repository\commons-logging\commons-logging\1.4.0\commons-logging-1.4.0.jar" org.example.rag.RagPipelineRunner
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by ai.onnxruntime.OnnxRuntime in an unnamed module (file:/C:/Users/Burhan%20Cerit/.m2/repository/com/microsoft/onnxruntime/onnxruntime/1.18.0/onnxruntime-1.18.0.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+=== BULUNAN KAYNAK PARÇALAR ===
+Sayfa 479 | Skor 0,6571
+Sayfa 533 | Skor 0,6047
+Sayfa 492 | Skor 0,5801
+Sayfa 184 | Skor 0,5296
+Sayfa 492 | Skor 0,5243
+ --- Answering ---
+
+=== LLM CEVABI ===
+An **embedding** is a low-dimensional vector representation of data (e.g., words, images, or symbols) that captures semantic, structural, or contextual relationships. In neural networks, embeddings are used to convert discrete, high-dimensional inputs (like words or pixels) into continuous, dense vectors, enabling the model to learn meaningful patterns and relationships.
+
+### Key Uses of Embeddings in Neural Networks:
+1. **Word Embeddings**:
+   - Words with similar meanings are mapped to nearby vectors in the embedding space (e.g., "king" and "queen" are close). This is achieved through training on contextual data (e.g., neural language models) [Parça 1 | Sayfa 479].
+   - Techniques like SVD or neural networks (e.g., recurrent or transformer models) are used to learn these embeddings [Parça 3 | Sayfa 492].
+
+2. **Image/Feature Embeddings**:
+   - Hidden layers in convolutional networks produce "image embeddings," representing visual features in a compact vector form [Parça 1 | Sayfa 479].
+
+3. **Manifold Learning**:
+   - Embeddings represent data points on a low-dimensional manifold, capturing intrinsic structures. For example, algorithms like t-SNE visualize embeddings to analyze relationships between data points [Parça 2 | Sayfa 533, Parça 5 | Sayfa 492].
+
+4. **Multi-Task Learning**:
+   - Embeddings are shared across tasks (e.g., part-of-speech tagging, parsing) to improve efficiency and performance by leveraging common patterns [Parça 5 | Sayfa 492].
+
+### How Neural Networks Use Embeddings:
+- **Hidden Layers**: Neural networks use embeddings as intermediate representations, transforming input data into a form suitable for downstream tasks (e.g., classification, prediction) [Parça 4 | Sayfa 184].
+- **Encoder Functions**: Embeddings are often generated via encoder functions that map input data (e.g., raw text) to a lower-dimensional space, enabling tasks like reconstruction or classification [Parça 2 | Sayfa 533].
+
+In summary, embeddings bridge discrete data and continuous vector spaces, enabling neural networks to model complex relationships and improve performance in tasks like NLP and computer vision.
+
+Process finished with exit code 0
